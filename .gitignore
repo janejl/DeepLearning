@@ -5,10 +5,9 @@ dogs-vs-cats/
 
 # models and history
 A2/ass2/history/
-A2/ass2/q5_model_*
+A2/ass2/q5_model*
 
 # Others
-*.pdf
 *.swp
 *.swo
 *.ckpt.*
