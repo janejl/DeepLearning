@@ -4,7 +4,7 @@ def learning_rate_range():
     proper learning rate"""
     # Lower and upper bounds
     #######
-
+    lower_bound, upper_bound = 0.1, 1e-9
     #######
     return lower_bound, upper_bound
 
@@ -13,7 +13,9 @@ def learnign_rate_examples():
     """Give three examples for a bad, not bad, and very good learning rate
     """
     #######
-
+    bad_larning_rate = 0.1
+    not_bad_learning_rate = 1e-4
+    good_learning_rate = 1e-3
     #######
     return bad_larning_rate, not_bad_learning_rate, good_learning_rate
 

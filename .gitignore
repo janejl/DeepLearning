@@ -1,12 +1,18 @@
 # Large datasets
 glove.6B.50d.txt
 imdb.npz*
+dogs-vs-cats/
+
+# models and history
+A2/ass2/history/
+A2/ass2/q5_model_*
 
 # Others
 *.pdf
 *.swp
 *.swo
 *.ckpt.*
+core
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
