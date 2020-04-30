@@ -4,7 +4,7 @@ def learning_rate_range():
     proper learning rate"""
     # Lower and upper bounds
     #######
-    lower_bound, upper_bound = 0.1, 1e-6
+    lower_bound, upper_bound = 1e-6, 0.1
     #######
     return lower_bound, upper_bound
 
