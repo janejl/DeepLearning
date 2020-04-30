@@ -1,5 +1,6 @@
 from keras import layers
 from keras import models
+from keras import optimizers
 from keras.applications import VGG16
 
 
