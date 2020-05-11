@@ -5,7 +5,8 @@ dogs-vs-cats/
 
 # models and history
 A2/ass2/history/
-A2/ass2/q5_model*
+A2/ass2/saved_models/q5_model*
+*.h5
 
 # Others
 *.swp

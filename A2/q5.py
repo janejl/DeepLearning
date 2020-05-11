@@ -59,7 +59,7 @@ def train_and_save_model():
         validation_data=val_generator,
         validation_steps=50)
 
-    model.save('/userhome/34/ljiang/deep_learning/A2/ass2/q5_model/q5_model')
+    model.save('/userhome/34/ljiang/deep_learning/A2/q5_model/q5_model.h5')
 
 
 def predict(test_dir, output_dir="q5_result"):
@@ -81,7 +81,7 @@ def predict(test_dir, output_dir="q5_result"):
         raise Exception("Model not found.")
 
     ### Restore your model
-    model = models.load_model('/userhome/34/ljiang/deep_learning/A2/ass2/q5_model/q5_model')
+    model = models.load_model('./q5_model/q5_model.h5')
 
     ### Make predictions with restored model
     test_datagen = ImageDataGenerator(rescale=1./255)
